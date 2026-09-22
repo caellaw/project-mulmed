@@ -1,0 +1,96 @@
+body { 
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 0; 
+    padding: 0%; 
+    line-height: 1.6; 
+    background-color: #ffe9ef; 
+    color: #b8546f;
+}
+
+header { 
+    background: #f5d2db; 
+    color: #b8546f; 
+    padding: 2rem; 
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b97587;
+    padding: 0.4rem 1.5rem;
+}
+
+.logo {
+    color: #ffe9ef;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #ffe9ef;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+section { 
+    padding: 2rem; 
+    max-width: 800px; 
+    margin: auto; 
+    background: linear-gradient(to right, #f5d2db, #faded2); 
+    margin-top: 1rem; 
+    border-radius: 5px;
+}
+
+h2 { 
+    border-bottom: 2px solid #f5d2db; 
+    padding-bottom: 0.5rem;
+}
+
+.project { 
+    background: linear-gradient(135deg, #fcdfe6, #faded2); 
+    padding: 1rem; 
+    margin-top: 1rem; 
+    border-left: 4px solid #f5d2db;
+}
+
+.sosmed-link {
+    color: #b8546f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sosmed-link:hover {
+    text-decoration: underline;
+}
+
+footer { 
+    text-align: center; 
+    padding: 1rem; 
+    background: #f5d2db; 
+    color: #f8f4f4; 
+    margin-top: 2rem;
+}
